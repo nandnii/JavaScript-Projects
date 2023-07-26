@@ -6,7 +6,7 @@ If you're new to JavaScript and looking to strengthen your skills, you've come t
 
 ## 🔍  Explore the Hosted Websites:
 
-1. [Weather App](https://nandnii-weather-app.netlify.app)
+1. [Responsive Weather App](https://nandnii-weather-app.netlify.app/)
 
 
 ## ⚡️ Features:
