@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do List</title>
+    <link rel="stylesheet" href = "styles.css">
+</head>
+
+<body>
+    <!-- BG -->
+    <div class="container">
+        <!-- Outer white card -->
+        <div class="todo">
+            <!-- for heading -->
+            <h1>Dockit<img src = "images/questionnaire.png" alt="icon"></h1>
+
+            <!-- for enter box -->
+            <div class="box">
+                <input type="text" id="input-box" placeholder="Enter task" spellcheck="false">
+                <button onclick = "addTask()">Add</button>
+                <image onclick="addTask()" class="plus" src="./images/plus.png"></image>
+            </div>
+
+            <!-- task list -->
+            <ul id="list-container">
+            </ul>
+        </div>
+    </div>
+
+    <script src="./index.js"></script>
+</body>
+</html>
